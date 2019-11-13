@@ -17,10 +17,10 @@
         {
           "name": "/Users/karthik/Desktop/ln-techkshetra-/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": [],
-            "displayName": false
+            "displayName": true
           }
         }
       ],
@@ -46,10 +46,10 @@
         {
           "name": "/Users/karthik/Desktop/ln-techkshetra-/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": [],
-            "displayName": false
+            "displayName": true
           }
         }
       ],
@@ -75,10 +75,10 @@
         {
           "name": "/Users/karthik/Desktop/ln-techkshetra-/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": [],
-            "displayName": false
+            "displayName": true
           }
         }
       ],
@@ -104,10 +104,10 @@
         {
           "name": "/Users/karthik/Desktop/ln-techkshetra-/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": [],
-            "displayName": false
+            "displayName": true
           }
         }
       ],
