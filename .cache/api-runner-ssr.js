@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/Users/karthik/Desktop/ln-techkshetra-/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/karthik/Desktop/works/ln-techkshetra-/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/karthik/Desktop/ln-techkshetra-/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
+      plugin: require('/Users/karthik/Desktop/works/ln-techkshetra-/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/karthik/Desktop/ln-techkshetra-/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/Users/karthik/Desktop/works/ln-techkshetra-/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[],"query":"\n          {\n            site {\n              siteMetadata {\n                title\n                description\n                siteUrl\n                site_url: siteUrl\n              }\n            }\n          }\n        ","feeds":[{"query":"\n              {\n                allArticle(sort: {order: DESC, fields: date}) {\n                  edges {\n                    node {\n                      excerpt\n                      date\n                      slug\n                      title\n                      author\n                      secret\n                    }\n                  }\n                }\n              }\n              ","output":"/rss.xml"}]},
     },{
-      plugin: require('/Users/karthik/Desktop/ln-techkshetra-/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      plugin: require('/Users/karthik/Desktop/works/ln-techkshetra-/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":10000,"linkImagesToOriginal":false,"quality":80,"withWebp":true}},{"resolve":"gatsby-remark-copy-linked-files"},{"resolve":"gatsby-remark-numbered-footnotes"},{"resolve":"gatsby-remark-smartypants"},{"resolve":"gatsby-remark-external-links","options":{"target":"_blank","rel":"noreferrer"}}],"remarkPlugins":[null]},
     },{
-      plugin: require('/Users/karthik/Desktop/ln-techkshetra-/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/karthik/Desktop/works/ln-techkshetra-/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Novela by Narative","short_name":"Novela","start_url":"/","background_color":"#fff","theme_color":"#fff","display":"standalone","icon":"src/assets/favicon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
