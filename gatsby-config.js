@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ln(Techkshetra)`,
+    title: `Techkshetra 2k19 - Official Blog`,
     name: `Techkshetra`,
     siteUrl: `https://techkshetra.tech`,
     description: `Techkshetra, this year Techkshetra 2k19, the biennial technical festival of Rajagiri School of Engineering and Technology, Kakkanad, Kerala is a
@@ -11,14 +11,10 @@ module.exports = {
     part of something bigger; a place where all outdated rules go out of the window and you are free to
     create and discover your passion as you please. Techkshetra 2k19`,
     hero: {
-      heading: `ln(Techkshetra) - The natural log of techkshetra`,
+      heading: `Techkshetra 2k19 - Official Blog`,
       maxWidth: 652,
     },
     social: [
-      {
-        name: `instagram`,
-        url: `https://instagram.com/techkshetra19?igshid=1uat2j1tm6gpc`,
-      },
       {
         name: `instagram`,
         url: `https://instagram.com/techkshetra19?igshid=1uat2j1tm6gpc`,
