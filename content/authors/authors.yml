@@ -1,0 +1,9 @@
+- name: Techkshetra
+  bio: |
+    ln(Techkshetra) is the official blog of techkshetra 2k19, written by our awwsome content writers.
+  avatar: ./avatars/Techkshetra.jpg
+  featured: true
+  social:
+    - name: instagram
+      url: https://instagram.com/techkshetra19?igshid=1uat2j1tm6gpc
+
