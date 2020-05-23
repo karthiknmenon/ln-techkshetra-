@@ -1,9 +1,0 @@
-{
-  "env": {
-    "node": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 5,
-    "sourceType": "script"
-  }
-}
