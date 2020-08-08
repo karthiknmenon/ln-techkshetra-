@@ -14,10 +14,12 @@ module.exports = {
       heading: `Techkshetra 2k19 - Official Blog`,
       maxWidth: 652,
     },
-    social: [{        
+    social: [{
+        name: `mailto`,
         url: `https://techkshetra.tech`,
       },
       {
+        name: `mailto`,
         url: `https://www.rajagiritech.ac.in/Home/Index.asp`,
       },
       {
