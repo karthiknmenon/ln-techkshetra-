@@ -14,13 +14,15 @@ module.exports = {
       heading: `Techkshetra 2k19 - Official Blog`,
       maxWidth: 652,
     },
-    social: [{
-        name: `url`,
+    social: [{        
         url: `https://techkshetra.tech`,
       },
       {
-        name: `url`,
         url: `https://www.rajagiritech.ac.in/Home/Index.asp`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/mojojojo20`,
       },
       {
         name: `instagram`,
