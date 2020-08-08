@@ -14,15 +14,21 @@ module.exports = {
       heading: `Techkshetra 2k19 - Official Blog`,
       maxWidth: 652,
     },
-    social: [
+    social: [{
+        name: `url`,
+        url: `https://techkshetra.tech`,
+      },
+      {
+        name: `url`,
+        url: `https://www.rajagiritech.ac.in/Home/Index.asp`,
+      },
       {
         name: `instagram`,
         url: `https://instagram.com/techkshetra19?igshid=1uat2j1tm6gpc`,
-      }
+      },
     ],
   },
-  plugins: [
-    {
+  plugins: [{
       resolve: "@narative/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
@@ -36,10 +42,16 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-144718643-4",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Techkshetra Blog`,
+        short_name: `Techkshetra-Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
