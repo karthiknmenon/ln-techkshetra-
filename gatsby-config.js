@@ -15,11 +15,11 @@ module.exports = {
       maxWidth: 652,
     },
     social: [{
-        name: `mailto`,
-        url: `https://techkshetra.tech`,
+        name: `github`,
+        url: `https://www.techkshetra.tech`,
       },
       {
-        name: `mailto`,
+        name: `github`,
         url: `https://www.rajagiritech.ac.in/Home/Index.asp`,
       },
       {
